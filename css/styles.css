@@ -11351,7 +11351,8 @@ iframe {
 }
 
 .contact1-pic img {
-  max-width: 100%;
+  width: 32rem;
+  margin-right: 10rem;
 }
 
 
