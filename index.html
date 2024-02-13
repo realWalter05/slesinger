@@ -317,7 +317,8 @@
                 <div class="team-member mx-3">
                     <img class="mx-auto rounded-circle" src="./img/ostatni/logo_no_bg.png" alt="..." />
                     <h4>Václav Adámek</h4>
-                    <p class="text-muted"><a href="mailto:vaclav.adamek@adamssbros.cz">vaclav.adamek@adamssbros.cz</a></p>
+                    <p class="text-muted"><a href="mailto:vaclav.adamek@adamssbros.cz">vaclav.adamek@adamssbros.cz</a>
+                    </p>
                     <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/adamssbrosgrouping/"
                         target="_blank" aria-label="Václav Adámek Instagramový profil">
                         <i class="fa-brands fa-instagram"></i>
@@ -336,7 +337,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 mx-auto text-center">
-                        <p class="large text-muted">Adam Radam je zakladatelem firmy
+                        <p class="large text-muted">Václav Adámek je zakladatelem firmy
                             Adamss Bros. Grouping s.r.o. a jsme připraveni čelit všemu co nám přijde do cesty i novým
                             výzvám které si pro nás nachystáte.</p>
                     </div>
@@ -395,9 +396,17 @@
                         <span class="shadow-input1"></span>
                     </div>
 
-                    <div class="wrap-input1 validate-input" data-validate="Zadejte, čeho se to týká">
-                        <input class="input1" type="text" name="subject" placeholder="Týká se služby">
+                    <div class="dropdown">
+                        <input class="dropdown-toggle p-3 input1 wrap-input1 validate-input"
+                            id="subject_input" data-bs-toggle="dropdown" aria-expanded="false" placeholder="    Týká se služby?" name="subject">
                         <span class="shadow-input1"></span>
+
+                        <ul class="dropdown-menu w-100" aria-labelledby="subject_input">
+                            <li class="dropdown-item" onclick="document.getElementById('subject_input').value = 'Instalatéřství';">Instalatéřství</li>
+                            <li class="dropdown-item" onclick="document.getElementById('subject_input').value = 'Fotovoltaické instalace';">Fotovoltaické instalace</li>
+                            <li class="dropdown-item" onclick="document.getElementById('subject_input').value = 'Elektroinstalace';">Elektroinstalace</li>
+                            <li class="dropdown-item" onclick="document.getElementById('subject_input').value = 'Horolezectví a zimní kurzy';">Horolezectví a zimní kurzy</li>
+                        </ul>
                     </div>
 
                     <div class="wrap-input1 validate-input" data-validate="Zadejte obsah zprávy">

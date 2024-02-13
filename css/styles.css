@@ -13249,6 +13249,7 @@ iframe {
 
 .contact1-pic img {
   width: 32rem;
+  max-width: 100%;
   margin-right: 15rem;
   margin-bottom: 10rem;
 }
@@ -13440,6 +13441,11 @@ textarea.input1+.shadow-input1 {
 @media (max-width: 576px) {
   .container-contact1 {
     padding: 90px 15px 88px 15px;
+  }
+
+  .contact1-pic img {
+    max-width: 100% !important;
+    width: auto;
   }
 }
 
