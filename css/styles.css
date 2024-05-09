@@ -13306,7 +13306,7 @@ textarea.input1+.shadow-input1 {
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
-  color: #888888;
+  color: black !important;
 }
 
 .shadow-input1 {
