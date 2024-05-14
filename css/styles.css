@@ -653,6 +653,14 @@ progress {
   height: auto;
 }
 
+.solar {
+  overflow: hidden;
+}
+
+.solar img {
+  height: 57.5rem !important;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -12751,10 +12759,10 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../img/ostatni/image.jpg");
+  background-image: url("../img/intrak.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center -300px;
   background-size: cover;
 }
 

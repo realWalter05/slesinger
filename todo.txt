@@ -1,8 +1,12 @@
-telefon pridat
+intro img | DONE
+
+telefon pridat | DONE ale spatne cislo
 
 vsude smazat drevovyrobu a zimni sporty i z fotky pri logo
 
 dohodit obrazky ke strecham
+
+zmenit layout o sluzeb
 
 logo vedle napisu na navbar
 
@@ -49,9 +53,6 @@ formular posilat emaily na info@adamssbros.cz
 ------
 
 jina fotka na fotovoltaicky instalace
-
-
-misto kolaze solarni fotka
 
 
 az budou reklamni videa, tak misto fotky dame video
