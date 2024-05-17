@@ -163,12 +163,11 @@
                             <div class="mb-3">
                                 <label for="solar_pocet_lidi" class="form-label">Počet lidí v domáctnosti</label>
                                 <input type="number" class="form-control" id="solar_pocet_lidi">
-                                <div class="form-text">Tyto data se nikam neukládají</div>
                             </div>
                         </div>
                         <div class="col-sm">
                             <div class="mb-3">
-                                <label for="solar_spotreba" class="form-label">Odhadovaná roční spotřeba:</label>
+                                <label for="solar_spotreba" class="form-label">Odhadovaná roční spotřeba (v kW)</label>
                                 <input type="number" class="form-control" id="solar_spotreba">
                             </div>
                         </div>
@@ -189,7 +188,6 @@
                                 <select class="form-select" aria-label="Vyberte typ střechy" id="priorita">
                                     <option value="1">Nizká cena</option>
                                     <option value="2">Doručení</option>
-                                    <option value="3">Recenze</option>
                                     <option value="3">Inovace</option>
                                 </select>
                             </div>
@@ -198,8 +196,9 @@
                             <div class="mb-3">
                                 <label for="solar_cil" class="form-label">Cíl</label>
                                 <select class="form-select" aria-label="Vyberte typ střechy" id="solar_cil">
-                                    <option value="1">Nezávislost</option>
-                                    <option value="2">Ekonomická výhoda</option>
+                                    <option value="1">Chci použít pro ohřev boileru</option>
+                                    <option value="2">Chci použít pro zásobení elektřinou</option>
+                                    <option value="2">Mým cílem je hlavně ušetřit</option>
                                 </select>
                             </div>
                         </div>
@@ -233,7 +232,12 @@
                             </div>
                         </div>
                     </div>
-                    <button onclick="solarForm();" class="btn btn-primary">Vypočítat cenu elektrárny</button>
+                    <div class="row">
+                        <label class="col form-label my-3">Mám zájem o vyřízení dotace</label>
+                        <input type="checkbox" class="col" id="solar_elektricke_topeni">
+                    </div>
+                    <button class="btn btn-primary">Mám zájem o nabídku</button>
+                    <button onclick="solarForm();" class="btn btn-secondary">Vypočítat cenu elektrárny</button>
                     <p class="m-3" id="solar_cena_output">Vaše solární instalace bude stát x Kč</p>
                 </div>
             </div>

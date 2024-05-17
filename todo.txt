@@ -1,23 +1,18 @@
+Šlesinger má za úkol zkontrolovat celou stránku, jestli jsou v jeho textech nejaké zmínky o 
+zimní sportech a dřevovýrobě a přepsat je. Pak do textáku o fotovoltaice nějak doplnit že učil na
+výšce a u elektroinstalace říkat že dělal zakázku i pro ministerstvo obrany. | Zadáno
+
 intro img | DONE
-
 telefon pridat | DONE 
-
-vsude smazat drevovyrobu a zimni sporty i z fotky pri logo | DONE BUT SLESINGER CHECK
-
 dohodit obrazky ke strecham | DONE
-
 zmenit layout o sluzeb | DONE
-
 logo vedle napisu na navbar | DONE
-
-predelat omacku o fotovoltaiky (uceni na vejsce) | SLESINGER
-predelat omacku o drevovyroba (i pro ministerstvo obrany) | SLESINGER
-
 formular posilat emaily na info@adamssbros.cz | DONE
-
-vizitku jako scrollovaci obrazek nad kdo jsme | 
-
 jina fotka na fotovoltaicky instalace | DONE
+udelat emailovou domenu objednavky@adamssbros.cz | DONE
+
+vizitku jako scrollovaci obrazek nad kdo jsme | SLESINGER čeka se až pošle
+
 
 ---------------------
 
@@ -25,11 +20,12 @@ PREDELAT DESIGN FORMULARU
 
 SOLARNI ELEKTRARNA
 
-do 6 kW / od 150 tisíc
-nad 6 kW - 15 kW  / od 250
-nad 15 kW / Cenu neurčíme ale upřesníme
+do 6 kW / od 150 tisíc | DONE
+nad 6 kW - 15 kW  / od 250 | DONE
+nad 15 kW / Cenu neurčíme ale upřesníme | DONE
 
 mám zajem o vyrizeni dotace checkbox
+obrazky ke strecham
 
 Cíl: Chci vyuzit pro ohrev boileru, pro zasobeni elektrinou, usetreni
 
@@ -44,7 +40,5 @@ do 10 kW / 150
 nad 20 individualne
 
 mám zajem o vyrizeni dotace checkbox
-
-
-udelat emailovou domenu objednavky@adamssbros.cz a na to budou chodit formulare
+po vyplneni prijde mail na objednavky@adamssbros.cz
 

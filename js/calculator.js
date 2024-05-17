@@ -1,16 +1,19 @@
 
 function solarForm() {
+    let cena = "";
     let pocetLidi = document.getElementById("solar_pocet_lidi").value;
     let solar_spotreba = document.getElementById("solar_spotreba").value;
 
+    if (solar_spotreba < 6) {
+        cena = "od 150 tisíc Kč"
+    } else if (solar_spotreba > 6 && solar_spotreba < 15) {
+        cena = "od 250 tisíc Kč";
+    } else if (solar_spotreba > 15) {
+        cena = "Cenu neurčíme ale upřesníme v nabídce";
+    }
 
-    let strecha_select = document.getElementById("strecha_select").value;
 
-    let solar_boiler = document.getElementById("solar_boiler").checked;
-
-
-    const price = pocetLidi * 5000 * solar_spotreba * strecha_select;
-    document.getElementById("solar_cena_output").innerText = "Vaše solární instalace bude stát " + price + " Kč"
+    document.getElementById("solar_cena_output").innerHTML = "Vaše solární instalace bude stát: <b>" + cena + "</b>";
 }
 
 function teploForm() {
