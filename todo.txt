@@ -1,19 +1,27 @@
 intro img | DONE
 
-telefon pridat | DONE ale spatne cislo
+telefon pridat | DONE 
 
-vsude smazat drevovyrobu a zimni sporty i z fotky pri logo
+vsude smazat drevovyrobu a zimni sporty i z fotky pri logo | DONE BUT SLESINGER CHECK
 
-dohodit obrazky ke strecham
+dohodit obrazky ke strecham | DONE
 
-zmenit layout o sluzeb
+zmenit layout o sluzeb | DONE
 
-logo vedle napisu na navbar
+logo vedle napisu na navbar | DONE
 
-predelat omacku o fotovoltaiky (uceni na vejsce)
-predelat omacku o drevovyroba (i pro ministerstvo obrany)
+predelat omacku o fotovoltaiky (uceni na vejsce) | SLESINGER
+predelat omacku o drevovyroba (i pro ministerstvo obrany) | SLESINGER
+
+formular posilat emaily na info@adamssbros.cz | DONE
+
+vizitku jako scrollovaci obrazek nad kdo jsme | 
+
+jina fotka na fotovoltaicky instalace | DONE
 
 ---------------------
+
+PREDELAT DESIGN FORMULARU
 
 SOLARNI ELEKTRARNA
 
@@ -25,7 +33,7 @@ mám zajem o vyrizeni dotace checkbox
 
 Cíl: Chci vyuzit pro ohrev boileru, pro zasobeni elektrinou, usetreni
 
-po vyplneni prijde mail
+po vyplneni prijde mail na objednavky@adamssbros.cz
 
 ----------------------
 
@@ -40,19 +48,3 @@ mám zajem o vyrizeni dotace checkbox
 
 udelat emailovou domenu objednavky@adamssbros.cz a na to budou chodit formulare
 
-
-
-vizitku jako scrollovaci obrazek nad kdo jsme
-
-------
-
-formular posilat emaily na info@adamssbros.cz
-
-
-
-------
-
-jina fotka na fotovoltaicky instalace
-
-
-az budou reklamni videa, tak misto fotky dame video

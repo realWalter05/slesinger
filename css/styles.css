@@ -12804,8 +12804,6 @@ header.masthead .masthead-heading {
 
 #portfolio .portfolio-item {
   max-width: 32rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -13523,6 +13521,10 @@ textarea.input1+.shadow-input1 {
     visibility: visible;
     opacity: 1;
   }
+
+  #portfolio .portfolio-item {
+    margin: auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -13535,4 +13537,18 @@ textarea.input1+.shadow-input1 {
   #mainNav .navbar-brand {
     font-size: 0.85rem !important;
   }
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/fotovoltaika/fotovoltaika36.JPG");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
