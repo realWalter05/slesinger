@@ -27,17 +27,17 @@ nad 15 kW / Cenu neurčíme ale upřesníme | DONE
 mám zajem o vyrizeni dotace checkbox
 obrazky ke strecham
 
-Cíl: Chci vyuzit pro ohrev boileru, pro zasobeni elektrinou, usetreni
+Cíl: Chci vyuzit pro ohrev boileru, pro zasobeni elektrinou, usetreni | DONE
 
 po vyplneni prijde mail na objednavky@adamssbros.cz
 
 ----------------------
 
-Tepelna instalace
-odhadovany tepelny vykon domu rd
-do 10 kW / 150
-10- 20 / 250
-nad 20 individualne
+Tepelna instalace | DONE
+odhadovany tepelny vykon domu rd | DONE
+do 10 kW / 150 | DONE
+10- 20 / 250 | DONE
+nad 20 individualne | DONE
 
 mám zajem o vyrizeni dotace checkbox
 po vyplneni prijde mail na objednavky@adamssbros.cz
