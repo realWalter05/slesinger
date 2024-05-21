@@ -1,3 +1,14 @@
+document.getElementById('solar_btn').addEventListener('click',
+    function (event) {
+        // Zpracování dat formuláře         
+        event.preventDefault();
+    });
+
+document.getElementById('teplo_btn').addEventListener('click',
+    function (event) {
+        // Zpracování dat formuláře         
+        event.preventDefault();
+    });
 
 function solarForm() {
     let cena = "";
@@ -12,21 +23,26 @@ function solarForm() {
         cena = "Cenu neurčíme ale upřesníme v nabídce";
     }
 
+    let solar_cil = document.getElementById("solar_cil").value;
+    if (solar_cil == "Ohřev boileru") {
+        cena = "90 000 Kč"
+    }
+
 
     document.getElementById("solar_cena_output").innerHTML = "Vaše solární instalace bude stát: <b>" + cena + "</b>";
 }
 
 function teploForm() {
-    let pocetLidi = document.getElementById("odhadovany_teplo").value;
+    let odhadovany_teplo = document.getElementById("odhadovany_teplo").value;
     let cena = "";
 
-    if (pocetLidi <= 10) {
+    if (odhadovany_teplo <= 10) {
         cena = "od 150 tisíc Kč"
-    } else if (pocetLidi > 10 && pocetLidi < 20) {
+    } else if (odhadovany_teplo > 10 && odhadovany_teplo < 20) {
         cena = "od 250 tisíc Kč";
-    } else if (pocetLidi > 20) {
+    } else if (odhadovany_teplo > 20) {
         cena = "Cenu neurčíme ale upřesníme v nabídce";
     }
-    
+
     document.getElementById("teplo_cena_output").innerHTML = "Vaše tepelná instalace bude stát: <b> " + cena + "</b>"
 }

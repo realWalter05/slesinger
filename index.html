@@ -70,11 +70,11 @@
             <div class="text-center">
                 Naše firma vznikla s vizí poskytovat
                 komplexní a kvalitní služby v několika klíčových odvětvích, které zahrnují instalatérství, solární
-                technologie a elektroinstalace
+                technologie a elektroinstalace.
                 Naše úsilí spočívá v dosažení optimálních výsledků pro naše klienty. S Vámi spolupracujeme od prvního
                 nápadu až po dokončení projektu, abychom zajistili, že každý aspekt splňuje Vaše očekávání. S
                 Adamss Bros Grouping je kvalita zaručena.
-                Vyberte (si) nás a začněte cestu k skvělým a individualizovaným řešením ve světě instalatérství,
+                Vyberte si nás a začněte cestu k skvělým a individualizovaným řešením ve světě instalatérství,
                 solárních technologií a elektroinstalací.
             </div>
             <div class="row my-5 text-center">
@@ -96,7 +96,7 @@
                 <h3 class="section-subheading text-muted">Pro více informací rozklikněte službu.</h3>
             </div>
         </div>
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center m-0">
             <div class="row col-lg-6 d-flex flex-column">
                 <div class="col-lg mb-4 d-flex justify-content-end">
                     <!-- Portfolio item 2-->
@@ -155,28 +155,46 @@
         <div class="container justify-content-between">
             <div class="">
 
-                <div class="w-75 w-sm-100 m-auto">
+                <form method="POST" class="kf-form w-75 w-sm-100 m-auto"
+                    action="https://kwesforms.com/api/f/X1Buj3Nxwa4EIvOWzQMp">
+
                     <h2 class="section-heading text-uppercase">Solární kalkulátor</h2>
 
                     <div class="row">
                         <div class="col">
                             <div class="mb-3">
                                 <label for="solar_pocet_lidi" class="form-label">Počet lidí v domáctnosti</label>
-                                <input type="number" class="form-control" id="solar_pocet_lidi">
+                                <input type="number" class="form-control" name="solar_pocet_lidi" id="solar_pocet_lidi">
                             </div>
                         </div>
                         <div class="col-sm">
                             <div class="mb-3">
                                 <label for="solar_spotreba" class="form-label">Odhadovaná roční spotřeba (v kW)</label>
-                                <input type="number" class="form-control" id="solar_spotreba">
+                                <input type="number" value="1" class="form-control" name="solar_spotreba"
+                                    id="solar_spotreba">
                             </div>
                         </div>
                     </div>
-                    <div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="solar_name" class="form-label">Vaše jméno</label>
+                                <input type="text" class="form-control" name="solar_name" id="solar_name">
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="mb-3">
+                                <label for="solar_email" class="form-label">Váš email</label>
+                                <input type="email" class="form-control" name="solar_email" id="solar_email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100">
                         <label for="strecha_select" class="form-label">Střecha</label>
-                        <div class="mb-3 d-flex">
+                        <fieldset class="mb-3 d-sm-flex" name="solar_typ_strechy" data-kw-group>
                             <div class="form-check text-center">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="sedlova"
+                                <input class="form-check-input" type="radio" name="solar_typ_strechy" id="sedlova"
                                     value="sedlova" checked>
 
 
@@ -187,7 +205,7 @@
                                 </label>
                             </div>
                             <div class="form-check text-center">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="pultova"
+                                <input class="form-check-input" type="radio" name="solar_typ_strechy" id="pultova"
                                     value="pultova">
 
                                 <label class="form-check-label" for="pultova">
@@ -198,7 +216,7 @@
                                 </label>
                             </div>
                             <div class="form-check text-center">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="valbova"
+                                <input class="form-check-input" type="radio" name="solar_typ_strechy" id="valbova"
                                     value="valbova">
 
                                 <label class="form-check-label" for="valbova">
@@ -208,7 +226,7 @@
                                 </label>
                             </div>
                             <div class="form-check text-center">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="rovna"
+                                <input class="form-check-input" type="radio" name="solar_typ_strechy" id="rovna"
                                     value="option2">
 
                                 <label class="form-check-label" for="rovna">
@@ -217,33 +235,34 @@
 
                                 </label>
                             </div>
-                        </div>
+                        </fieldset>
                     </div>
                     <div class="row w-100">
                         <div class="col">
                             <div class="mb-3">
                                 <label for="priorita" class="form-label">Priority</label>
-                                <select class="form-select" aria-label="Vyberte typ střechy" id="priorita">
-                                    <option value="1">Nizká cena</option>
-                                    <option value="2">Doručení</option>
-                                    <option value="3">Inovace</option>
+                                <select class="form-select" name="solar_priorita" aria-label="Vyberte typ střechy"
+                                    id="priorita">
+                                    <option value="Nizká cena">Nizká cena</option>
+                                    <option value="Doručení">Doručení</option>
+                                    <option value="Inovace">Inovace</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm">
                             <div class="mb-3">
                                 <label for="solar_cil" class="form-label">Cíl</label>
-                                <select class="form-select" aria-label="Vyberte typ střechy" id="solar_cil">
-                                    <option value="1">Chci použít pro ohřev boileru</option>
-                                    <option value="2">Chci použít pro zásobení elektřinou</option>
-                                    <option value="2">Mým cílem je hlavně ušetřit</option>
+                                <select class="form-select" name="solar_cil" aria-label="Vyberte cíl?" id="solar_cil">
+                                    <option value="Ohřev boileru">Chci použít pro ohřev boileru</option>
+                                    <option value="Zásobení elektřinou">Chci použít pro zásobení elektřinou</option>
+                                    <option value="Ušetření">Mým cílem je hlavně ušetřit</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     <div class="form-check w-100">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" checked type="checkbox" name="solar_dotace" id="dotace">
+                        <label class="form-check-label" for="dotace">
                             Mám zájem o vyřízení dotace
                         </label>
                     </div>
@@ -251,37 +270,43 @@
                         <label class="form-label my-3 h5">Vaše spotřeba</label>
                         <div class="col-sm">
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="solar_boiler">
-                                <label class="form-check-label" for="solar_boiler">Elektrický boiler</label>
+                                <input type="checkbox" name="solar_boiler" class="form-check-input" id="solar_boiler">
+                                <label class="form-check-label" for="solar_boiler">Elektrický
+                                    boiler</label>
                             </div>
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="solar_zatepleny_dum">
-                                <label class="form-check-label" for="solar_zatepleny_dum">Zateplený dům</label>
+                                <input type="checkbox" name="solar_dum" class="form-check-input"
+                                    id="solar_zatepleny_dum">
+                                <label class="form-check-label" for="solar_zatepleny_dum">Zateplený
+                                    dům</label>
                             </div>
                         </div>
                         <div class="col-sm">
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="solar_elektricke_topeni">
+                                <input type="checkbox" name="solar_elektricke_topeni" class="form-check-input"
+                                    id="solar_elektricke_topeni">
                                 <label class="form-check-label" for="solar_elektricke_topeni">Elektrické topení</label>
                             </div>
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="solar_elektricka_auta">
+                                <input type="checkbox" name="solar_elektricke_auto" class="form-check-input"
+                                    id="solar_elektricka_auta">
                                 <label class="form-check-label" for="solar_elektricka_auta">Elektrické auto</label>
                             </div>
                         </div>
                         <div class="col-sm">
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="solar_bazen">
+                                <input type="checkbox" name="solar_bazen" class="form-check-input" id="solar_bazen">
                                 <label class="form-check-label" for="solar_bazen">Bazén</label>
                             </div>
                         </div>
 
 
                     </div>
-                    <button class="btn btn-primary">Mám zájem o nabídku</button>
-                    <button onclick="solarForm();" class="btn btn-secondary">Vypočítat cenu elektrárny</button>
+                    <button type="submit" class="btn btn-primary">Mám zájem o nabídku</button>
+                    <button onclick="solarForm();" id="solar_btn" class="btn btn-secondary">Vypočítat cenu
+                        elektrárny</button>
                     <p class="m-3" id="solar_cena_output">Vaše solární instalace bude stát x Kč</p>
-                </div>
+                </form>
             </div>
         </div>
 
@@ -291,7 +316,7 @@
     <section class="page-section">
         <div class="container justify-content-between">
 
-            <div class="w-75 w-sm-100 m-auto">
+            <form method="POST" class="kf-form w-75 w-sm-100 m-auto" action="https://kwesforms.com/api/f/4aX3BDnpusiT7VqUdbmy">
                 <h2 class="section-heading text-uppercase">Tepelný kalkulátor</h2>
 
                 <div>
@@ -299,20 +324,34 @@
                         <div class="col">
                             <div class="mb-3">
                                 <label for="odhadovany_teplo" class="form-label">Odhadovaný tepelný výkon (v kW)</label>
-                                <input type="number" class="form-control" id="odhadovany_teplo">
+                                <input type="number" value="1" required class="form-control" name="teplo_odhadovany" id="odhadovany_teplo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="teplo_name" class="form-label">Vaše jméno</label>
+                                <input type="text" class="form-control" name="teplo_name" id="teplo_name">
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="mb-3">
+                                <label for="teplo_email" class="form-label">Váš email</label>
+                                <input type="email" class="form-control" name="teplo_email" id="teplo_email">
                             </div>
                         </div>
                     </div>
                     <div class="mb-3">
                         <label for="teplo_druh_stavby" class="form-label">Druh stavby</label>
-                        <select class="form-select" id="teplo_druh_stavby" aria-label="Vyberte druh stavby">
-                            <option value="1">Kamenná</option>
-                            <option value="2">Cihlová</option>
-                            <option value="3">Zděná</option>
+                        <select class="form-select" name="teplo_druh_stavby" id="teplo_druh_stavby" aria-label="Vyberte druh stavby">
+                            <option value="Kamenná">Kamenná</option>
+                            <option value="Cihlová">Cihlová</option>
+                            <option value="Zděná">Zděná</option>
                         </select>
                     </div>
                     <div class="form-check w-100">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" name="teplo_dotace" checked type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Mám zájem o vyřízení dotace
                         </label>
@@ -321,38 +360,37 @@
                         <label class="form-label my-3 h6">Vaše spotřeba</label>
                         <div class="col-sm">
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="teplo_ohrev_vody">
+                                <input type="checkbox" required name="teplo_ohrev_vody" class="form-check-input" id="teplo_ohrev_vody">
                                 <label class="form-check-label" for="teplo_ohrev_vody">Ohřev vody</label>
                             </div>
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="teplo_vytapeni">
+                                <input type="checkbox" name="teplo_vytapeni" class="form-check-input" id="teplo_vytapeni">
                                 <label class="form-check-label" for="teplo_vytapeni">Vytápění</label>
                             </div>
                         </div>
                         <div class="col-sm">
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="teplo_vyhrev">
+                                <input type="checkbox" name="teplo_vyhrev" class="form-check-input" id="teplo_vyhrev">
                                 <label class="form-check-label" for="teplo_vyhrev">Výhřev bazénu</label>
                             </div>
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="teplo_podlaha">
+                                <input type="checkbox" name="teplo_podlaha" class="form-check-input" id="teplo_podlaha">
                                 <label class="form-check-label" for="teplo_podlaha">Podlahová vytápění</label>
                             </div>
                         </div>
                         <div class="col-sm">
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="teplo_radiator">
+                                <input type="checkbox" class="form-check-input" name="teplo_radiator" id="teplo_radiator">
                                 <label class="form-check-label" for="teplo_radiator">Normální radiátor</label>
                             </div>
                         </div>
                     </div>
-                    <button onclick="teploForm();" id="teplo_button" class="btn btn-primary">Vypočítat cenu</button>
+                    <button type="submit" class="btn btn-primary">Mám zájem o nabídku</button>
+                    <button onclick="teploForm();" id="teplo_btn" class="btn btn-secondary">Vypočítat cenu</button>
                     <p class="m-3" id="teplo_cena_output">Vaše tepelná instalace bude stát x Kč</p>
-                </div>
+                </form>
 
-
-
-            </div>
+        </div>
         </div>
     </section>
 
@@ -568,7 +606,7 @@
                                         <button class="btn btn-success btn-xl text-uppercase" data-bs-dismiss="modal"
                                             type="button">
                                             <a href="contact">
-                                            Objednat
+                                                Objednat
                                             </a>
                                         </button>
                                         <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"

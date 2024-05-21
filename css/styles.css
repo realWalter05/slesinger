@@ -2594,6 +2594,11 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 
+#calculator .form-check-input[type=radio] {
+  display: none !important;
+   TODO
+}
+
 .form-check-input:active {
   filter: brightness(90%);
 }
@@ -12626,6 +12631,7 @@ p {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .page-section h3.section-subheading,
@@ -12697,6 +12703,8 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #ffc800;
 }
+
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -13504,7 +13512,7 @@ textarea.input1+.shadow-input1 {
   opacity: 1;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
   .alert-validate::before {
     visibility: visible;
     opacity: 1;
@@ -13515,11 +13523,15 @@ textarea.input1+.shadow-input1 {
   }
 
   header.masthead {
-    padding-top: 5rem;
-    padding-bottom: 8.5rem;
+    height: 80vh;
+    padding-top: 18.5vh;
     background-position: center !important;
   }
 
+
+  .masthead-subheading {
+    padding: 0 5vw 0 5vw; 
+  }
 }
 
 @media (max-width: 500px) {
@@ -13528,7 +13540,7 @@ textarea.input1+.shadow-input1 {
   }
 }
 
-@media (max-width: 700px) and (min-width: 400px) {
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
   #mainNav .navbar-brand {
     font-size: 0.85rem !important;
   }
