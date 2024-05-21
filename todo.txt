@@ -1,6 +1,6 @@
 Šlesinger má za úkol zkontrolovat celou stránku, jestli jsou v jeho textech nejaké zmínky o 
 zimní sportech a dřevovýrobě a přepsat je. Pak do textáku o fotovoltaice nějak doplnit že učil na
-výšce a u elektroinstalace říkat že dělal zakázku i pro ministerstvo obrany. | Zadáno
+výšce a u elektroinstalace říkat že dělal zakázku i pro ministerstvo obrany. | DONE
 
 intro img | DONE
 telefon pridat | DONE 
@@ -11,7 +11,7 @@ formular posilat emaily na info@adamssbros.cz | DONE
 jina fotka na fotovoltaicky instalace | DONE
 udelat emailovou domenu objednavky@adamssbros.cz | DONE
 
-vizitku jako scrollovaci obrazek nad kdo jsme | SLESINGER čeka se až pošle
+vizitku jako scrollovaci obrazek nad kdo jsme | DONE
 
 
 ---------------------
