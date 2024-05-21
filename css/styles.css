@@ -2599,8 +2599,9 @@ textarea.form-control-lg {
 }
 
 #calculator .form-check-input[type=radio]:checked + .form-check-label {
-  border-bottom: 4px dashed #ffc800;
+  border: 10px solid #ffc800;
   border-color: #ffc800;
+  border-radius: 5%;
 }
 
 .form-check-input:active {
