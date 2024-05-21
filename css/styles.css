@@ -2596,7 +2596,11 @@ textarea.form-control-lg {
 
 #calculator .form-check-input[type=radio] {
   display: none !important;
-   TODO
+}
+
+#calculator .form-check-input[type=radio]:checked + .form-check-label {
+  border-bottom: 3px dashed #ffc800;
+  border-color: #ffc800;
 }
 
 .form-check-input:active {
@@ -13407,7 +13411,7 @@ textarea.input1+.shadow-input1 {
 
 @media (max-width: 1200px) {
   .contact1-pic {
-    width: 33.5%;
+    width: 45%;
   }
 
   .contact1-form {
@@ -13548,7 +13552,7 @@ textarea.input1+.shadow-input1 {
 
 .parallax {
   /* The image used */
-  background-image: url("../img/fotovoltaika/fotovoltaika36.JPG");
+  background-image: url("../img/fotovoltaika/fotovoltaika36-v.JPG");
 
   /* Set a specific height */
   min-height: 500px;
@@ -13557,5 +13561,5 @@ textarea.input1+.shadow-input1 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }

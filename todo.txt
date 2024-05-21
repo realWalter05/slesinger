@@ -25,7 +25,7 @@ nad 6 kW - 15 kW  / od 250 | DONE
 nad 15 kW / Cenu neurčíme ale upřesníme | DONE
 
 mám zajem o vyrizeni dotace checkbox | DONE
-obrazky ke strecham
+obrazky ke strecham | DONE
 
 Cíl: Chci vyuzit pro ohrev boileru, pro zasobeni elektrinou, usetreni | DONE
 
@@ -43,4 +43,4 @@ ohřev vody 90 tisíc | DONE
 mám zajem o vyrizeni dotace checkbox | DONE
 po vyplneni prijde mail na objednavky@adamssbros.cz | DONE
 
-objednat tlacitko poslat dolu 
+objednat tlacitko poslat dolu | DONE

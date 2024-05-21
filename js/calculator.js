@@ -46,3 +46,16 @@ function teploForm() {
 
     document.getElementById("teplo_cena_output").innerHTML = "Vaše tepelná instalace bude stát: <b> " + cena + "</b>"
 }
+
+function closeModal(modal) {
+    modal.classList.remove("show");
+    modal.style.display = "none";
+    modal.role = "";
+    modal.ariaHidden = "false";
+
+    document.getElementsByClassName("modal-backdrop")[0].remove();
+    document.body.classList.remove("modal-open");
+    document.body.style = "overflow: auto;";
+
+    document.getElementById("contact").scrollIntoView();
+}
