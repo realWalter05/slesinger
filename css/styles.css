@@ -13523,6 +13523,12 @@ textarea.input1+.shadow-input1 {
     opacity: 1;
   }
 
+  .parallax {
+    min-height: 100vh !important;
+    background-position: left !important;
+    background-size: 100vh !important;
+  }
+
   #portfolio .portfolio-item {
     margin: auto;
   }
@@ -13564,3 +13570,4 @@ textarea.input1+.shadow-input1 {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
